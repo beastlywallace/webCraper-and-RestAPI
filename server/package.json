@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Create A basic node application",
+  "author": "Decagon <info@decagon.dev>",
+  "private": true,
+  "scripts": {
+    "serve": "nodemon lib/app"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.22",
+    "nodemon": "^2.0.19",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "uuid": "^8.3.2"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
